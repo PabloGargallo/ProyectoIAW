@@ -1,0 +1,65 @@
+/* Reset de estilos para mayor consistencia en diferentes navegadores */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo de la cabecera */
+header {
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+/* Estilo del enlace de la cabecera */
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo de los contenidos principales */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los encabezados */
+h2, h3 {
+    color: #333;
+}
+h1{
+    color:white;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
